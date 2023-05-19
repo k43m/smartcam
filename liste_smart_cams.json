@@ -1,0 +1,133 @@
+{
+    [
+      {
+        "id": "cam001",
+        "position_gps": "48.8566, 2.3522",
+        "etat_marche": "OK",
+        "niveau_batterie": "80%",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam001/image.png"
+      },
+      {
+        "id": "cam002",
+        "position_gps": "48.8534, 2.3488",
+        "etat_marche": "WARNING_LOAD",
+        "niveau_batterie": "50%",
+        "version_software": "v1.1",
+        "derniere_image_url": "images/cam002/image.png"
+      },
+      {
+        "id": "cam101",
+        "position_gps": "43.2965, 5.3698",
+        "etat_marche": "LOST",
+        "niveau_batterie": "N/A",
+        "version_software": "v2.0",
+        "derniere_image_url": "images/cam004/image.png"
+      },
+      {
+        "id": "cam102",
+        "position_gps": "43.2805, 5.3936",
+        "etat_marche": "OFF",
+        "niveau_batterie": "N/A",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam002/image.png"
+      },
+      {
+        "id": "cam008",
+        "position_gps": "45.7640, 4.8357",
+        "etat_marche": "OK",
+        "niveau_batterie": "90%",
+        "version_software": "v1.2",
+        "derniere_image_url": "images/cam001/image.png"
+      },
+      {
+        "id": "cam052",
+        "position_gps": "45.7562, 4.8384",
+        "etat_marche": "WARNING_DATA",
+        "niveau_batterie": "70%",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam002/image.png"
+      },
+      {
+        "id": "cam053",
+        "position_gps": "45.7619, 4.8347",
+        "etat_marche": "WARNING_BATTERY",
+        "niveau_batterie": "30%",
+        "version_software": "v2.1",
+        "derniere_image_url": "images/cam003/image.png"
+      },
+      {
+        "id": "cam181",
+        "position_gps": "44.8378, -0.5792",
+        "etat_marche": "OK",
+        "niveau_batterie": "100%",
+        "version_software": "v1.5",
+        "derniere_image_url": "images/cam001/image.png"
+      },
+      {
+        "id": "cam182",
+        "position_gps": "44.8269, -0.5659",
+        "etat_marche": "LOST",
+        "niveau_batterie": "N/A",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam004/image.png"
+      },
+      {
+        "id": "cam143",
+        "position_gps": "44.8258, -0.5642",
+        "etat_marche": "OFF",
+        "niveau_batterie": "N/A",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam003/image.png"
+      },
+      {
+        "id": "cam061",
+        "position_gps": "43.7034, 7.2663",
+        "etat_marche": "OK",
+        "niveau_batterie": "75%",
+        "version_software": "v1.2",
+        "derniere_image_url": "images/cam001/image.png"
+      },
+      {
+        "id": "cam012",
+        "position_gps": "43.7038, 7.2648",
+        "etat_marche": "WARNING_DATA",
+        "niveau_batterie": "80%",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam002/image.png"
+      },
+      {
+        "id": "cam093",
+        "position_gps": "43.7039, 7.2665",
+        "etat_marche": "WARNING_LOAD",
+        "niveau_batterie": "50%",
+        "version_software": "v2.1",
+        "derniere_image_url": "images/cam003/image.png"
+        }
+        {
+        "id": "cam601",
+        "position_gps": "48.8648, 2.3346",
+        "etat_marche": "OK",
+        "niveau_batterie": "100%",
+        "version_software": "v1.5",
+        "derniere_image_url": "images/cam001/image.png"
+        },
+        {
+        "id": "cam502",
+        "position_gps": "48.8566, 2.3522",
+        "etat_marche": "LOST",
+        "niveau_batterie": "N/A",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam002/image.png"
+        },
+        {
+        "id": "cam503",
+        "position_gps": "48.8617, 2.3354",
+        "etat_marche": "OFF",
+        "niveau_batterie": "N/A",
+        "version_software": "v1.0",
+        "derniere_image_url": "images/cam004/image.png"
+        }
+    ]
+
+}
