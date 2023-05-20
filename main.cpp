@@ -1,5 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
 
 #include <smartcam.h>
 
@@ -15,6 +16,8 @@ int main(int argc, char *argv[])
         Qt::QueuedConnection);
 
     smartcam *s = new smartcam();
+
+    engine.rootContext()->setContextProperty("smartcam", s);
 
     engine.load(url);
 

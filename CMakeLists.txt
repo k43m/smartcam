@@ -14,11 +14,16 @@ find_package(Qt6 COMPONENTS Location)
 
 qt_standard_project_setup()
 
+include_directories(${CMAKE_SOURCE_DIR}/resources)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/liste_smart_cams.json
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
 qt_add_executable(appsmartcam
     smartcam.h
     smartcam.cpp
+    liste_smart_cams.json
     main.cpp
-    resources.qrc
 )
 
 qt_add_qml_module(appsmartcam
@@ -26,11 +31,6 @@ qt_add_qml_module(appsmartcam
     VERSION 1.0
     QML_FILES Main.qml
 )
-
-set(appsmartcam_files
-    "liste_smart_cams.json"
-)
-
 
 
 set_target_properties(appsmartcam PROPERTIES
@@ -43,6 +43,7 @@ set_target_properties(appsmartcam PROPERTIES
 
 target_link_libraries(appsmartcam
     PRIVATE Qt6::Quick
+    Qt6::Positioning
 )
 
 install(TARGETS appsmartcam
