@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>images/cam001/image.png</file>
+        <file>images/cam002/image.png</file>
+        <file>images/cam003/image.png</file>
+        <file>images/cam004/image.png</file>
+    </qresource>
+</RCC>

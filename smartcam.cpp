@@ -40,7 +40,6 @@ smartcam::smartcam(QObject *parent)
         data.append(v.toObject().value("derniere_image_url").toString());
 
         mCams.append(data);
-        qDebug()<<mCams;
     }
 
 }
